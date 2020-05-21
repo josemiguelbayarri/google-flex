@@ -1,0 +1,27 @@
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    height: 2.5em;
+    background-color: pink;
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen-google{
+    display: flex;
+    flex-direction: column;
+    height: 15em;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.recuadro-busqueda{
+    display: flex;
+    height: 6em;
+    border-color: gray;
+    border-radius: 50%;
+    align-items: center;
+}
