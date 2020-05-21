@@ -3,6 +3,8 @@
     flex-direction: row;
     height: 2.5em;
     background-color: pink;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .general{
@@ -20,8 +22,27 @@
 
 .recuadro-busqueda{
     display: flex;
-    height: 6em;
-    border-color: gray;
-    border-radius: 50%;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    margin-top: 3em;
 }
+
+.recuadro-busqueda input{
+      
+    width: 736px;
+    height: 40px;
+}
+
+.idiomas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.idiomas a{
+    margin: 0 2em;
+}
+
