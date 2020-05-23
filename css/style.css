@@ -53,13 +53,28 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 3em;
+    
+}
+.recuadro-busqueda .fa-microphone{
+    position: relative;
+    right: 36px;
+    color: #1877f2;
+}
+
+.recuadro-busqueda .fa-search{
+    position: relative;
+    right: 727px;
+    color: #b1b3b8;
 }
 
 .recuadro-busqueda input{
-      
+    border-radius: 25px;
     width: 736px;
     height: 40px;
+    
 }
+
+
 
 .idiomas{
     display: flex;
@@ -82,5 +97,9 @@ footer{
 .subtitulos-footer{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.right .fa-th{
+    color: #757575;
 }
